@@ -1,3 +1,5 @@
+//解题思路：首先将数组元素翻转，然后将0到(k%length)-1的元素和(k%length)-1到nums.length-1的元素分别进行翻转
+
 class Solution {
     public void rotate(int[] nums, int k) {
         k=k%nums.length;
